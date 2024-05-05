@@ -1,0 +1,51 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="timer.css">
+</head>
+
+<body>
+  <div id="timerContainer">
+    <div id="stoper">
+      <p id="elTimer">00:00.00</p>
+      <div id="buttons">
+        <button id="startStopButton">Start</button>
+        <button id="resetButton">Reset</button>
+        <button id="lapButton">Start a lap</button>
+      </div>
+    </div>
+    <div id="records">
+      <div id="resaultBest">
+        <h3>Best time</h3>
+        <h4></h4>
+      </div>
+      <div id="resaultAverage">
+        <h3>Average time</h3>
+        <h4></h4>
+      </div>
+      <div id="resaultWorst">
+        <h3>Worst time</h3>
+        <h4></h4>
+      </div>
+      <div id="resaultDifference">
+        <h3>Best/Worst difference</h3>
+        <h4></h4>
+      </div>
+    </div>
+  </div>
+  <div>
+    <h3 id="tableTitle">All results</h3>
+    <table id="timeList">
+      <tr>
+        <th>Time</th>
+        <th>Date</th>
+      </tr>
+    </table>
+  </div>
+
+  <script src="timer.js"></script>
+</body>
+
+</html>
