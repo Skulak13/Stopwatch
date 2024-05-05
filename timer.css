@@ -4,7 +4,7 @@ body {
   color: #333333;
 }
 
-#timeContainer {
+#timerContainer {
   display: flex;
   justify-content: center;
   gap: 180px;
