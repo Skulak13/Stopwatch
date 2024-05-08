@@ -1,114 +1,117 @@
 body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #f5f5f5;
-  color: #333333;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    color: #333333;
 }
 
 #timerContainer {
-  display: flex;
-  justify-content: center;
-  gap: 180px;
-  align-items: center;
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
 }
 
 #elTimer {
-  display: flex;
-  justify-content: center;
-  font-size: 100px;
-  margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 60px;
+    margin-top: 10px;
 }
 
 #buttons {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 #buttons button {
-  font-size: 16px;
-  width: 120px;
-  padding: 10px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+    font-size: 12px;
+    font-weight: bold;
+    width: 80px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 #startStopButton,
 #lapButton {
-  background-color: #4CAF50;
-  color: #ffffff;
+    background-color: #4CAF50;
+    color: #ffffff;
 }
 
 #startStopButton:hover,
 #lapButton:hover {
-  background-color: #45a049;
+    background-color: #45a049;
 }
 
 #resetButton {
-  background-color: #F44336;
-  color: #ffffff;
+    background-color: #F44336;
+    color: #ffffff;
 }
 
 #resetButton:hover {
-  background-color: #e53935;
+    background-color: #e53935;
 }
 
 #records {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-top: 110px;
-  text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin-top: 20px;
+    align-items: center;
 }
 
 [id^="resault"] h3 {
-  font-size: 20px;
-  color: #2196F3;
-  margin-bottom: 8px;
+    font-size: 15px;
+    color: #2196F3;
+    margin-bottom: 8px;
 }
 
 [id^="resault"] h4 {
-  font-size: 16px;
-  font-weight: 400;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 #tableTitle {
-  font-size: 24px;
-  color: #2196F3;
-  margin-left: 170px;
-  margin-top: 40px;
+    font-size: 24px;
+    color: #2196F3;
+    margin-left: 30px;
+    margin-top: 40px;
 }
 
 #timeList {
-  margin-left: 230px;
-  border-collapse: collapse;
-  width: 400px;
+    margin-left: 30px;
+    border-collapse: collapse;
+    width: 400px;
 }
 
 #timeList th {
-  font-size: 16px;
-  font-weight: 700;
-  color: #2196F3;
-  background-color: #f5f5f5;
-  padding: 10px;
-  text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+    color: #2196F3;
+    background-color: #f5f5f5;
+    padding: 10px;
+    text-align: left;
 }
 
 #timeList td {
-  font-size: 16px;
-  padding: 10px;
-  text-align: left;
-  border: 1px solid #DDDDDD;
+    font-size: 16px;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #DDDDDD;
 }
 
 #timeList tr:nth-child(even) {
-  background-color: #f5f5f5;
+    background-color: #f5f5f5;
 }
 
 #timeList tr:hover {
-  background-color: #e0e0e0;
+    background-color: #e0e0e0;
 }
